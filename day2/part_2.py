@@ -41,7 +41,7 @@ def parse_round(round: str) -> dict[str, int]:
 
 
 def main():
-    with open("02_input.txt", "r") as file:
+    with open("input.txt", "r") as file:
         data = file.read()
 
     games_powers = []

@@ -32,7 +32,7 @@ def is_valid_round(round: str) -> bool:
 
 
 def main():
-    with open("02_input.txt", "r") as file:
+    with open("input.txt", "r") as file:
         data = file.read()
 
     valid_games = []
